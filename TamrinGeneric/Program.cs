@@ -7,6 +7,7 @@ namespace TamrinGeneric
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Vafs :)");
             var genericclass = new GenericClass<Person>();
             string textpath = Path.Combine(Environment.CurrentDirectory, "TextFile.txt");
 
